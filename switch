@@ -1,3 +1,5 @@
+//Comando Switch = fluxo de código com comparação de identicos, bom para utilização em menus
+
 var opcao = prompt('Digite');
 var a = parseInt(opcao);
 switch(a) {
