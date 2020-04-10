@@ -1,0 +1,6 @@
+var nome = prompt("Digite um nome");
+var cor = prompt("Digite sua cor preferida");
+var comida = prompt("Digite sua comida preferida");
+var musica = prompt("Digite seu estilo de musica preferido");
+
+document.write("Olá "+nome+", analisei suas preferências e vi que sua cor preferida é "+cor+" também que você gosta do prato de comida "+comida+" e ainda que curte ouvir um bom "+musica);
