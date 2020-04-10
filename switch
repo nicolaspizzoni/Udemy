@@ -1,0 +1,15 @@
+var opcao = prompt('Digite');
+var a = parseInt(opcao);
+switch(a) {
+case 1:
+document.write(opcao);
+break;
+case 2:
+document.write(opcao);
+break;
+case 3:
+document.write(opcao);
+break;
+default:
+document.write('Wrong');
+}
