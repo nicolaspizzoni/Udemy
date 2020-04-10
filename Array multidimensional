@@ -1,0 +1,27 @@
+//Array multidimensional com seleção de indicador nos indices
+
+var automoveis = Array();
+
+automoveis['carros']=[];
+automoveis['motos']=[];
+
+automoveis['carros'][1]='Fiat Uno';
+automoveis['carros'][2]='Fiat Punto';
+automoveis['carros'][3]='Honda Civic';
+automoveis['carros'][4]='Honda Fit';
+
+automoveis['motos'][1]='Yamaha Fazer YS250';
+automoveis['motos'][2]='Yamaha Factor 150E';
+automoveis['motos'][3]='Suzuki Burgman 125';
+automoveis['motos'][4]='Suzuki RF 600 R';
+
+document.write(automoveis['motos'][1]);
+
+//Array Multidimensional sem seleção de indicadores nos indices, começando pelo 0 definido pela linguagem
+
+var automoveis = Array();
+
+automoveis['carros']=['Fiat Uno', 'Fiat Punto', 'Honda Civic', 'Honda Fit'];
+automoveis['motos']=['Yamaha Fazer YS250', 'Yamaha Factor 150E', 'Suzuki Burgman 125', 'Suzuki RF 600 R'];
+
+document.write(automoveis['motos'][1]);
