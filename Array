@@ -1,0 +1,31 @@
+//Pode-se atribuir um indentificador único a cada um dos indices que indicam cada valor
+var ListadeCompras = Array();
+
+ListadeCompras [1]='Feijão';
+ListadeCompras [2]='Arroz';
+ListadeCompras [3]='Macarrão';
+ListadeCompras [4]='Molho de tomate';
+ListadeCompras [5]='Refrigerante';
+ListadeCompras [6]='Achocolatado';
+ListadeCompras [7]='Requeijão';
+
+document.write(ListadeCompras[7]);
+
+//Pode-se atribuir um indentificador único a cada um dos indices que indicam cada valor
+var ListadeCompras2 = [];
+
+ListadeCompras2 [1]='Feijão';
+ListadeCompras2 [2]='Arroz';
+ListadeCompras2 [3]='Macarrão';
+ListadeCompras2 [4]='Molho de tomate';
+ListadeCompras2 [5]='Refrigerante';
+ListadeCompras2 [6]='Achocolatado';
+ListadeCompras2 [7]='Requeijão';
+
+document.write(ListadeCompras2[3]);
+
+//Os identificadores dos indices que indicam cada valor iniciam-se com valor 0
+
+var ListadeCompras3 = ['Feijão', 'Arroz', 'Macarrão', 'Molho de tomate', 'Refrigerante', 'Achocolatado', 'Requeijão'];
+
+document.write(ListadeCompras3[0]);
