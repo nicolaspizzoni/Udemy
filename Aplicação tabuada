@@ -1,0 +1,4 @@
+var x = parseFloat(prompt('Digite o número multiplicando:'));
+var y = parseFloat(prompt('Digite o número multiplicador:'));
+var r = x*y;
+document.write(x+' * '+y+' = '+r);
