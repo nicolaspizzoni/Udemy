@@ -1,0 +1,33 @@
+var nome = prompt('Digite seu nome:');
+var altura = prompt('Digite sua altura em centimetros');
+var peso = prompt('Digite seu peso em kilos(kg)');
+var a = parseFloat(altura)/100;
+var p=parseFloat(peso);
+var M = p/(a*a);
+
+if(M<16){
+var classificacao =('Baixo peso muito grave');
+alert('Baixo peso muito grave');
+}else if(M>=16&&M<=16.99){
+var classificacao =('Baixo peso grave');
+alert('Baixo peso grave');
+}else if(M>=17&&M<=18.49){
+var classificacao =('Baixo peso');
+alert('Baixo peso');
+}else if(M>=18.5&&M<=24.99){
+var classificacao =('Peso normal');
+alert('Peso normal');
+}else if(M>=25&&M<=29.99){
+var classificacao =('Sobrepeso');
+alert('Sobrepeso');
+}else if(M>=30&&M<=34.99){
+var classificacao =('Obesidade grau I');
+alert('Obesidade grau I');
+}else if(M>=35&&M<=39.99){
+var classificacao =('Obesidade grau II');
+alert('Obesidade grau II');
+}else{
+var classificacao =('Obesidade grau III');
+alert('Obesidade grau III');
+}
+document.write(nome+" possui indice de massa corporal igual "+M+" sendo classificado como: "+classificacao);
