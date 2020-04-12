@@ -12,7 +12,7 @@ set=configurar atributos*/
 getInfo(){
 document.write('cor: '+this.cor+'</br>'+'quantidade de portas: '+this.portas)
 }
-abrirPorta(porta){
+static abrirPorta(porta){
 document.write('Porta '+porta+ ' aberta '+'</br>');
 }
 fecharPorta(porta){
@@ -21,5 +21,6 @@ document.write('Porta '+porta+ ' fechada'+'</br>');
 }
 //Instanciar uma classe
 var casa=new CasaInglesa("Vermelha", 8);
-casa.abrirPorta('azul');
+casa.fecharPorta('branca');
+CasaInglesa.abrirPorta('azul');
 casa.getInfo();
