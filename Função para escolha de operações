@@ -1,0 +1,22 @@
+var operacao=prompt('Digite qual operação quer efetuar: ');
+var num1=parseFloat(prompt('Digite o primeiro número:'));
+var num2=parseFloat(prompt('Digite o segundo número:'));
+
+function Operacao(num1,num2,operacao){
+if(operacao=='soma'){
+var x =num1+num2;
+}
+else if(operacao=='subtração'){
+var x = num1-num2;
+}
+else if(operacao=='multiplicação'){
+var x = num1*num2;
+}
+else if(operacao=='divisão'){
+var x = num1/num2;
+}else{
+alert('operação não reconhecida');
+}
+return(x);
+}
+document.write('O resultado é: '+Operacao(num1,num2,operacao));
