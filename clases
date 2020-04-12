@@ -1,0 +1,25 @@
+//Camel Case (CasaInglesa)
+class CasaInglesa{
+//Atributos
+constructor(cor, qtdPortas){
+//this=utilizado para definir um atributo
+this.cor=cor;
+this.portas=qtdPortas;
+}
+//metodos
+/*get=recuperar atributos
+set=configurar atributos*/
+getInfo(){
+document.write('cor: '+this.cor+'</br>'+'quantidade de portas: '+this.portas)
+}
+abrirPorta(porta){
+document.write('Porta '+porta+ ' aberta '+'</br>');
+}
+fecharPorta(porta){
+document.write('Porta '+porta+ ' fechada'+'</br>');
+}
+}
+//Instanciar uma classe
+var casa=new CasaInglesa("Vermelha", 8);
+casa.abrirPorta('azul');
+casa.getInfo();
