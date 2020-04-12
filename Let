@@ -1,0 +1,10 @@
+//Let=declaração de variável para bloco
+
+function testeLet(){
+if(true){
+let teste = 'Nicolas';
+document.write(teste);
+}
+document.write(teste);
+}
+testeLet();
