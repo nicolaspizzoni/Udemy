@@ -1,0 +1,24 @@
+class Animal{
+constructor(cor, tamanho, peso){
+this.cor=cor;
+this.tamanho=tamanho;
+this.peso=peso;
+}
+getInfo(){
+document.write('Cor: '+this.cor+'</br>'+'Tamanho: '+this.tamanho+'</br>'+'Peso: '+this.peso+'</br>'+'</br>')
+}
+dormir(){
+document.write('Durma'+'</br>');
+}}
+class Cao extends Animal{
+//sobrescrita de metodos
+dormir(){
+super.dormir();
+document.write(' como cão'+'</br>');
+}}
+class Ave extends Animal{
+voar(altura){
+document.write('Voe '+altura+'</br>');
+}}
+var cao=new Cao();
+cao.dormir();
