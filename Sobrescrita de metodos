@@ -5,7 +5,7 @@ this.tamanho=tamanho;
 this.peso=peso;
 }
 getInfo(){
-document.write('Cor: '+this.cor+'</br>'+'Tamanho: '+this.tamanho+'</br>'+'Peso: '+this.peso+'</br>'+'</br>')
+document.write('Cor: '+this.cor+'</br>'+'Tamanho: '+this.tamanho+'</br>'+'Peso: '+this.peso+'</br>')
 }
 dormir(){
 document.write('Durma'+'</br>');
@@ -15,10 +15,20 @@ class Cao extends Animal{
 dormir(){
 super.dormir();
 document.write(' como cão'+'</br>');
-}}
+}
+constructor(cor, tamanho, peso, raca){
+super(cor, tamanho, peso);
+this.raca=raca;
+}
+getInfo(){
+super.getInfo();
+document.write(' Raça: '+this.raca);
+}
+}
 class Ave extends Animal{
 voar(altura){
 document.write('Voe '+altura+'</br>');
 }}
-var cao=new Cao();
+var cao=new Cao('azul', 1+' m', 8+' kg',' Pincher');
 cao.dormir();
+cao.getInfo();
