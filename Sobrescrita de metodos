@@ -29,6 +29,6 @@ class Ave extends Animal{
 voar(altura){
 document.write('Voe '+altura+'</br>');
 }}
-var cao=new Cao('azul', 1+' m', 8+' kg',' Pincher');
+var cao=new Cao('azul', 18+' cm', 1.5+' kg',' Pinscher');
 cao.dormir();
 cao.getInfo();
