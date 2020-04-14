@@ -1,0 +1,4 @@
+var objetoJson='{"cor":"Verde","tamanho":20,"peso": 15}'
+//JSON.parse = metodo que converte o objetoJson que está em formato Json em um objeto literal
+var objeto = JSON.parse(objetoJson);
+document.write(objeto.peso);
