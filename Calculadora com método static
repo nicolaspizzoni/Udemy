@@ -1,0 +1,10 @@
+class Calculadora{
+static soma(){
+var x=parseFloat(prompt('Digite o primeiro número a somar:'));
+var y=parseFloat(prompt('Digite o segundo número a somar:'));
+
+var z = x+y
+document.write('O resultado da soma dos dois números é: '+z);
+}
+}
+Calculadora.soma();
