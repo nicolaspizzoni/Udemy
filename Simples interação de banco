@@ -1,0 +1,27 @@
+class Conta{
+constructor(saldo){
+this.saldo=saldo;
+}
+getSaldo(){
+document.write('Seu saldo atual é: '+this.saldo);
+}
+saque(){
+var y=prompt('Digite a quantia a ser sacada:');
+document.write('Retire e confira o valor em dinheiro de '+y+' Reais');
+}
+deposito(){
+var x =prompt('Digite a quantia a ser depositada: ');
+document.write(x+' Reais depositados com sucesso');
+}
+}
+var conta = new Conta(8600+' Reais');
+var z=prompt('Digite qual ação irá realizar: exibir saldo, saque, deposito');
+if(z=='saque'){
+conta.saque();
+}else if(z=='deposito'){
+conta.deposito();
+}else if(z=='exibir saldo'){
+conta.getSaldo();
+}else{
+alert('Comando não reconhecido');
+}
