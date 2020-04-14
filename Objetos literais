@@ -1,0 +1,15 @@
+//objetoLiteral
+
+var formatacaoTexto={
+cor:'Preto',
+tamanho:12
+}
+var imagem={
+posicao:'centro',
+tamanho:{
+	altura:300,
+  largura:200
+}
+}
+document.write('Altura da imagem: '+imagem.tamanho.altura+'</br>');
+document.write('Tamanho do texto: '+formatacaoTexto.tamanho);
