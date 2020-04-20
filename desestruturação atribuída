@@ -1,0 +1,6 @@
+({nome,idade,sexo}={nome: "Nicolas", idade:20, sexo:"M"})
+//A variavél precisa ter o mesmo nome do atributo
+/*Ao invés de usar
+var getnome = nome;
+document.write(getnome);*/
+document.write(nome);
