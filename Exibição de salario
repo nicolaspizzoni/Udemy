@@ -13,6 +13,6 @@ super(salario, total);
 }
 }
 var f = new Funcionario(3000, 3000);
-var p=new Programador(3000, (3000+300));
+var p = new Programador(3000, (3000+300));
 p.getInfo();
 f.getInfo();
