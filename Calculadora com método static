@@ -7,4 +7,4 @@ var z = x+y
 document.write('O resultado da soma dos dois números é: '+z);
 }
 }
-Calculadora.soma();
+Calculadora.soma(); //com o metodo em static nao é preciso instanciar a classe
